@@ -1,0 +1,29 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	width: 24%;
+	transition: 1s;
+	float: left;
+	margin: 1px;
+}
+
+#div1{
+	width: 90%;
+	border: 1px solid black;
+	margin-left: 5%;
+}
+#respuesta{
+	width: 90%;
+	margin-bottom: 1%;
+	border: 1px solid black;
+	margin-left: 5%;
+}
+p,h1,b{
+	margin-left: 5%;
+}
+.contenedor{
+	width: 75%;
+	display: block;
+}

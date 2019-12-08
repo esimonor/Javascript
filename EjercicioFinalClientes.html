@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guitarras de Buckethead</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+	<script src="js/javascript.js"></script>
+</head>
+<body>
+	<h1>Guitarras de Buckethead</h1>
+	<p>Este es un listado de las guitarras mas importantes utilizadas por el famoso guitarrista buckethead</p>
+	<div id="respuesta">
+		<br>
+		<p id="info">Haz click en una imagen para descubrir mas sobre esa guitarra.</p>
+		<br>
+		<p>Este es el top 3 de las guitarras mas populares de buckethead:</p>
+		<p id="top"></p>
+
+	</div>
+	<div id="div1">
+		<div class="contenedor">
+			<img src="img/Kramer.png" onclick="informacion(0)">
+		</div>
+		<div class="contenedor">
+			<img src="img/Heartfield Talon II.png" onclick="informacion(1)">
+		</div>
+		<div class="contenedor">
+			<img src="img/Steinberger GS.jpg" onclick="informacion(2)">
+		</div>
+		<div class="contenedor">
+			<img src="img/ESP strat (LTD MW-SKULL).png" onclick="informacion(3)">
+		</div>
+		<div class="contenedor">
+			<img src="img/Guitarra verde esmeralda sin identificar.png" onclick="informacion(4)">
+		</div>
+		<div class="contenedor">
+			<img src="img/Ibanez Rocket Roll (X-series).png" onclick="informacion(5)">
+		</div>
+		<div class="contenedor">
+			<img  src="img/ESP MV morada.png" onclick="informacion(6)">
+		</div>
+		<div class="contenedor">
+			<img src="img/ESP M II.jpg" onclick="informacion(7)">
+		</div>
+		<div class="contenedor">
+			<img src="img/Jackson Y2KV.jpg" onclick="informacion(8)">
+		</div>
+		<div class="contenedor">
+			<img src="img/Jackson KFC KV2.jpg" onclick="informacion(9)">
+		</div>
+		<div class="contenedor">
+			<img src="img/Gibson Les Paul.png" onclick="informacion(10)">
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		document.getElementById("top").innerHTML = "<b><ol style='margin-left:1%;'><li>"+primera+"</li><li>"+segunda+"</li><li>"+tercera+"</li></ol></b>";
+	</script>
+</body>
+</html>
